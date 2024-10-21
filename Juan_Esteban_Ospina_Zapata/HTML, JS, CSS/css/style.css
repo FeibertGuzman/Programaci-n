@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+/**/
+
+body{
+    background-color: #96C1FA;
+}
+.parrafo{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 18px;
+    color: #1E2B63;
+}
+
+.banner {
+    background-color: #1E2B63;
+}
+
+.banner > img{
+    margin-left: 150px;
+}
+
+.titulo_1{
+    font-weight: 800;
+}
+
+.titulo{
+    font-family: "Afacad Flux", sans-serif;
+    color: #213887;
+    font-weight: 800;
+}
+
+.btn_calcular {
+    background-color: white;
+    border: solid 1px #213887;
+    color: #213887;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+    font-weight: 800;
+  }
+  
+  .btn_calcular:hover {
+    transform: scale(1.1);
+  }
+
+  .container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    margin-top: 5%;
+}
