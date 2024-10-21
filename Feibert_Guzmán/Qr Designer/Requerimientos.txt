@@ -1,0 +1,4 @@
+# Intalar 
+pip install PyQt6
+python -m pip install PyQt6
+python3.12 -m pip install PyQt6
