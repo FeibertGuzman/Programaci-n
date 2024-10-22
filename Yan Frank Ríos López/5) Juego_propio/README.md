@@ -76,7 +76,8 @@ Lógica de movimiento y combate con enemigos.
 Sistema de puntos que se actualiza al encontrar el tesoro.
 
 ## Captura del proyecto
-![Captura de pantalla](https://github.com/FeibertGuzman/Programaci-n/blob/f0931310fd76a6923594a20d217d8adb7a43feaf/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/5)%20Juego_propio/Captura%20de%20pantalla%202024-10-21%20225132.png)
+
+![Captura de pantalla](https://github.com/FeibertGuzman/Programaci-n/blob/f0931310fd76a6923594a20d217d8adb7a43feaf/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/5)%20Juego_propio/Captura%20de%20pantalla%202024-10-21%20225156.png?raw=true)
 
 ![Captura de pantalla](https://github.com/FeibertGuzman/Programaci-n/blob/f0931310fd76a6923594a20d217d8adb7a43feaf/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/5)%20Juego_propio/Captura%20de%20pantalla%202024-10-21%20225141.png)
 
