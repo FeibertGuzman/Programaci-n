@@ -1,35 +1,60 @@
-# Integración de Código
+# Laberinto Aventura en Python
 
-## List Comprehensions
+## Descripción
+Este proyecto es un juego de laberinto interactivo creado en Python. El jugador comienza en el centro de un laberinto y tiene que buscar un tesoro mientras evita enemigos y puede ganar poderes especiales. El juego incluye un sistema de puntuación y muestra un ranking de jugadores al final.
 
-Este software fue creado a través de Python en Visual Studio Code. Lo que hace es que mostrarnos una lista de elementos, esta lista tiene adentro un bucle que ayuda a la ejecución de si misma. Por otra parte, tenemos otro algoritmo que imprime la lista de elementos que cada usuario elija. Fue creado por Yan Frank Ríos López. 
+### Características principales:
 
-# Puede ser clonado a través de este link: 
-1. Clona este repositorio en tu máquina local:
+Movimiento del jugador dentro de un laberinto de 5x5.
+Búsqueda de un tesoro oculto.
+Encuentros con enemigos que deben ser evitados o derrotados.
+Obtención de poderes especiales aleatorios.
+Sistema de puntos basado en el hallazgo del tesoro.
 
-   ```bash
-   git clone (https://github.com/lppz16/Integraci-n-de-c-digo.git)
+## ¿Cómo puede ser clonado?
 
-2. Navega al directorio del proyecto:
+Clona este repositorio en tu máquina local. Para clonar este proyecto, asegúrate de tener Git instalado. Luego, clona el repositorio ejecutando el siguiente comando en tu terminal:
+bash
 
-   cd Python-EST_DAT
+## Instalación 
+Para ejecutar el juego en tu máquina, sigue estos pasos:
 
-3. Ejecuta el script:
+Clona el repositorio utilizando el comando anterior.
+Navega al directorio del proyecto:
+bash
+cd Laberinto-Aventura
+Asegúrate de tener Python instalado en tu máquina. Este proyecto requiere Python 3.
+Ejecuta el archivo Python:
+bash
+python laberinto.py
 
-Asegúrate de tener *Python* instalado (preferiblemente la versión 3.8 o superior).
+## Herramientas utilizadas 
+Este proyecto fue desarrollado utilizando las siguientes herramientas:
 
+Python 3.8+: Lenguaje de programación.
+Random: Módulo para generar posiciones aleatorias.
 
-# Captura del código:
+## Uso
+Para jugar el laberinto:
 
-![Python](https://github.com/lppz16/Integraci-n-de-c-digo/blob/71b35beaf64e2e027dbe3167e2a0e74881540f82/Material%20Digital/Captura%20de%20pantalla%202024-09-23%20145340.png)
+Mueve al jugador usando las teclas:
+w: arriba
+s: abajo
+a: izquierda
+d: derecha
+Encuentra el tesoro (🪙) evitando a los enemigos (representados como *).
+Si encuentras el tesoro, recibirás puntos. Si te encuentras con un enemigo, perderás.
+El juego terminará mostrando tu puntuación y el ranking de jugadores.
 
+## Estructura del código 
+La estructura del código es la siguiente:
 
-# Captura de la ejecución del código:
-![Python](https://github.com/lppz16/Integraci-n-de-c-digo/blob/main/Material%20Digital/Captura%20de%20pantalla%202024-09-23%20145653.png)
+**laberinto:** Matriz que representa el laberinto.
+**juga0dor_pos:** Lista que almacena la posición del jugador.
+**tesoro_pos:** Posición aleatoria del tesoro.
+**mostrar_lab():** Función que visualiza el laberinto con la posición del jugador, el tesoro y los enemigos.
+Lógica de movimiento y combate con enemigos.
+Sistema de puntos que se actualiza al encontrar el tesoro.
 
-# Video:
-https://github.com/lppz16/Integraci-n-de-c-digo/blob/a64205c1a4259f5a1503e91216420823c045c363/Material%20Digital/Video.mp4
-
-# Requisitos
-
-1. Python 3.8+
+## Autor
+Yan Frank Ríos López
