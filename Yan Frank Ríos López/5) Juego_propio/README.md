@@ -1,4 +1,6 @@
 # Laberinto Aventura en Python
+![Static Badge](https://img.shields.io/badge/Python-12-red?logo=Python&logoColor=white)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange)
 
 ## Descripción
 Este proyecto es un juego de laberinto interactivo creado en Python. El jugador comienza en el centro de un laberinto y tiene que buscar un tesoro mientras evita enemigos y puede ganar poderes especiales. El juego incluye un sistema de puntuación y muestra un ranking de jugadores al final.
