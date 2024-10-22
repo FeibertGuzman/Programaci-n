@@ -92,7 +92,7 @@ changeBG(): Cambia el color de fondo de la ventana de manera aleatoria.
 **Menú de opciones:** Permite seleccionar operaciones matemáticas desde la barra de menú.
 
 ## Captura del proyecto:
-![](https://github.com/FeibertGuzman/Programaci-n/blob/d3dc8a982690f7988be5d24e7c89b0225dec2e5e/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1)%20Calculadora/img/Captura%20de%20pantalla%202024-10-21%20222126.png)
+![](https://github.com/FeibertGuzman/Programaci-n/blob/d3dc8a982690f7988be5d24e7c89b0225dec2e5e/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1)
 
 ![](https://github.com/FeibertGuzman/Programaci-n/blob/d3dc8a982690f7988be5d24e7c89b0225dec2e5e/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1)%20Calculadora/img/Captura%20de%20pantalla%202024-10-21%20222134.png)
 
