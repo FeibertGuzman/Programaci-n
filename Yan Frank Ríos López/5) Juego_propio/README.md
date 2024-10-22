@@ -1,6 +1,5 @@
 # Laberinto Aventura en Python
 ![Static Badge](https://img.shields.io/badge/Python-12-red?logo=Python&logoColor=white)
-![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange)
 
 ## Índice
 
