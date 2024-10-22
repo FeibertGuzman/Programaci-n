@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+        <div class="container1">
+            <nav>
+                <a href="instru.html">Leer instrucciones</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="formulario">
+        <form method="post">
+            <div class="dato1">
+                <input type="number" id="d1" required>
+                <label>Ingresa el primer dato:</label>
+            </div>
+            <div class="dato2">
+                <input type="number" id="d2" required>
+                <label>Ingresa el segundo dato:</label>
+            </div>
+            <div class="dato3" >
+                <input type="number" id="d3">
+                <label>Ingresa el tercer dato (Opcional):</label>
+            </div>
+            <div class="opera">
+                <select name="Operación" id="operacion">
+                    <option value="Suma">Suma</option>
+                    <option value="Resta">Resta</option>
+                    <option value="Multiplicación">Multiplicación</option>
+                    <option value="División">División</option>
+                    <option value="MCM">MCM</option>
+                    <option value="MCD">MCD</option>
+                </select>
+            </div> 
+       </form>
+        <input type="button" value="Calcular" onclick="Calcular();">
+            <div class="conte">
+             <h2>Resultado:</h2>
+             <input type="text" id="resultado" readonly>
+            </div>
+   </div>
+
+   <script>
+   function Calcular(){
+     const num1 = parseFloat(document.getElementById("d1").value);
+     const num2 = parseFloat(document.getElementById("d2").value);
+     const num3 = parseFloat(document.getElementById("d3").value) || 0;
+     const ope = document.getElementById("operacion").value;
+     let resultado;
+     
+     switch (ope) {
+        case "Suma":
+            resultado = num1 + num2 + num3;
+            break;
+        case "Resta":
+            resultado = num1 - num2 - num3;
+            break;
+        case "Multiplicación":
+            resultado = num3 == 0 ? (num1*num2) : (num1*num2*num3);
+            break;
+        case "División":
+            resultado = num2 !== 0 ? (num1 / num2 / (num3 !== 0 ? num3 : "Error: División por cero")) : "Error: División por cero";
+            break;
+        case "MCM":
+            resultado = calcularMCM(num1, num2, num3);
+            break;
+            case "MCD":
+            resultado = calcularMCD(num1, num2, num3)
+            break;
+        default:
+            resultado = "Operación no válida";
+        }
+
+        document.getElementById("resultado").value = resultado;
+    }
+    function calcularMCM(d1, d2, d3){
+        function mcm(x, y){
+            return(x * y)/calcularMCD(x, y)
+        }
+
+        function calcularMCD(x, y){
+            return y==0 ? x : calcularMCD(y, x % y);
+        }
+
+        let mcmValue = mcm(d1, d2);
+        if(d3!==0){
+            mcmValue = mcm(mcmValue, d3);
+        }
+        return mcmValue;
+    }
+
+    function calcularMCD(d1, d2, d3){
+        function mcd(x,y){
+            return y == 0 ? x : mcd(y, x % y);
+        }
+
+        let mcdValue = mcd(d1, d2)
+        if(d3!==0){
+            mcdValue=mcd(mcdValue, d3);
+        }
+        return mcdValue;
+    }
+</script>
+</body>
+</html>
