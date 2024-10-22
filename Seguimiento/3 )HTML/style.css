@@ -1,0 +1,87 @@
+/* Restablecimiento de márgenes y estilo base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #070707, #0a035f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #5465f8;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+/* Estilo del logo */
+.logo {
+    width: 100%; /* El logo ocupa el ancho del contenedor */
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+/* Título principal */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Etiquetas de los campos */
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+/* Entradas de números */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Botón para sumar */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #0a0a0a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+button:hover {
+    background-color: #070707;
+}
+
+/* Resultado de la suma */
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
