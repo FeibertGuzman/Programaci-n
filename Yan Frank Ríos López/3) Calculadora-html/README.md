@@ -1,4 +1,7 @@
 # Proyecto de Calculadora en **html** y **css**
+<a href="https://shields.io/"><img src="https://img.shields.io/badge/HTML-5E5E5E?style=flat-square&logo=html5&logoColor=E34F26" alt="HTML badge" /></a>
+<a href="https://shields.io/"><img src="https://img.shields.io/badge/CSS-5E5E5E?style=flat-square&logo=css3&logoColor=1572B6" alt="CSS badge" /></a>
+
 
 ## índice
 
