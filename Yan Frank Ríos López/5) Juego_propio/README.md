@@ -2,6 +2,24 @@
 ![Static Badge](https://img.shields.io/badge/Python-12-red?logo=Python&logoColor=white)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-orange)
 
+## Índice
+
+**1.** [Descripción](#descripción)
+
+**2.** [¿Cómo puede ser clonado?](#cómo-puede-ser-clonado)
+
+**3.** [Instalación](#instalación)
+
+**4.** [Herramientas utilizas](#herramientas-utilizadas)
+
+**5.** [Uso](#uso)
+
+**6.** [Estructura del código](#estructura-del-codigo)
+
+**7.** [Captura del proyecto](#captura-del-proyecto)
+
+**8.** [Autor](#autor)
+
 ## Descripción
 Este proyecto es un juego de laberinto interactivo creado en Python. El jugador comienza en el centro de un laberinto y tiene que buscar un tesoro mientras evita enemigos y puede ganar poderes especiales. El juego incluye un sistema de puntuación y muestra un ranking de jugadores al final.
 
@@ -57,6 +75,9 @@ La estructura del código es la siguiente:
 **mostrar_lab():** Función que visualiza el laberinto con la posición del jugador, el tesoro y los enemigos.
 Lógica de movimiento y combate con enemigos.
 Sistema de puntos que se actualiza al encontrar el tesoro.
+
+## Captura del proyecto
+
 
 ## Autor
 Yan Frank Ríos López
