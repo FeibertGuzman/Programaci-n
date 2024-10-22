@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Calculadora</h1>
+    </div>
+
+    <div class="container">
+        <div class="calculator">
+            <div class="input-box">
+                <input type="number" id="number1" placeholder="Ingrese el primer número">
+                <input type="number" id="number2" placeholder="Ingrese el segundo número">
+                <input type="text" id="result" placeholder="Resultado" readonly>
+            </div>
+            <div class="buttons">
+                <a href="#" class="btn btn-1" onclick="sumar()">Sumar</a>
+                <a href="#" class="btn btn-1" onclick="restar()">Restar</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function sumar() {
+            var num1 = parseFloat(document.getElementById('number1').value);
+            var num2 = parseFloat(document.getElementById('number2').value);
+            var resultado = num1 + num2;
+            document.getElementById('result').value = resultado;
+        }
+
+        function restar() {
+            var num1 = parseFloat(document.getElementById('number1').value);
+            var num2 = parseFloat(document.getElementById('number2').value);
+            var resultado = num1 - num2;
+            document.getElementById('result').value = resultado;
+        }
+    </script>
+</body>
+</html>
