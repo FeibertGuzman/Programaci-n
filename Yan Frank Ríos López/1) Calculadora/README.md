@@ -94,10 +94,9 @@ changeBG(): Cambia el color de fondo de la ventana de manera aleatoria.
 ## Captura del proyecto:
 ![Captura de pantalla de la calculadora](https://github.com/FeibertGuzman/Programaci-n/blob/776bc375f9cff543d4dd7dd25044fbfc0c30b309/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1%29%20Calculadora/img/Captura%20de%20pantalla%202024-10-21%20222126.png)
 
+![Captura de pantalla de la calculadora](https://github.com/FeibertGuzman/Programaci-n/blob/117f55254527a7994353e575486a3d252f15989c/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1%29%20Calculadora/img/Captura%20de%20pantalla%202024-10-21%20222134.png)
 
-![](https://github.com/FeibertGuzman/Programaci-n/blob/d3dc8a982690f7988be5d24e7c89b0225dec2e5e/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1)%20Calculadora/img/Captura%20de%20pantalla%202024-10-21%20222134.png)
-
-![](https://github.com/FeibertGuzman/Programaci-n/blob/d3dc8a982690f7988be5d24e7c89b0225dec2e5e/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1)%20Calculadora/img/Captura%20de%20pantalla%202024-10-21%20222306.png)
+![Captura de pantalla de la calculadora](https://github.com/FeibertGuzman/Programaci-n/blob/117f55254527a7994353e575486a3d252f15989c/Yan%20Frank%20R%C3%ADos%20L%C3%B3pez/1%29%20Calculadora/img/Captura%20de%20pantalla%202024-10-21%20222306.png)
 
 ## Autor
 Yan Frank Ríos López
