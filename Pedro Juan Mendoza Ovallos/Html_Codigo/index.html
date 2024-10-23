@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Integral de HTML+CSS+JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="banner">
+        <h1>Clase Lenguajes de programación</h1>
+    </div>
+|
+    <h2>Calculadora de Suma</h2>
+    <p>Introduce dos numeros para sumarlos:</p>
+
+    <form id="sumarForm">
+        <input type="number" id="numero1" placeholder="Número 1" required>
+        <input type="number" id="numero2" placeholder="Número 2" required>
+        <button type="submit">Sumar</button>
+    </form>
+
+    <p id="resultado">El resultado aparecera aqui...</p>
+
+    <script>
+        document.getElementById("sumarForm").addEventListener("submit", function(event) {
+            event.preventDefault(); 
+            sumaNumeros();  // Funcion de la suma
+        });
+    </script>
+
+</body>
+</html>

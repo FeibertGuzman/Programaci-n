@@ -1,0 +1,63 @@
+/*Estilos CSS*/
+h1 {
+    color: rgb(255, 128, 206);
+    font-size: 300%;
+    font-weight: 800;
+}
+
+h2 {
+    color: rgb(50, 115, 220);
+    font-size: 200%;
+}
+
+p {
+    color: rgb(202, 52, 52);
+    font-size: 150%;
+    font-weight: 800;
+}
+
+.Paprende {
+    color: blueviolet;
+}
+
+#pCSS {
+    color: aqua;
+}
+
+.banner {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    color: darkblue;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    font-size: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 100%;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 120%;
+    color: darkred;
+}
