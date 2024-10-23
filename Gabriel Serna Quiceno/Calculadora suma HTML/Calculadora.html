@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Suma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Calculadora de Suma</h1>
+    </div>
+
+    <!-- Sección de la Calculadora -->
+    <div class="calculator">
+        <h2>Realiza una Suma</h2>
+        <label for="num1">Número 1:</label>
+        <input type="number" id="num1" placeholder="Ingresa el primer número">
+        <br>
+        <label for="num2">Número 2:</label>
+        <input type="number" id="num2" placeholder="Ingresa el segundo número">
+        <br>
+        <button onclick="sumar()">Sumar</button>
+    </div>
+
+    <!-- Modal para mostrar el resultado -->
+    <div id="resultModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <p id="resultado-texto">El resultado es: </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
