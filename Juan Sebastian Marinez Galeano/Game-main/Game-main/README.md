@@ -6,7 +6,7 @@
 ![MIT](https://img.shields.io/badge/MIT-License-blue)
 
 <figure style="text-align: center;">
-  <img src="imagenes/1.png" alt="" width="200" height="115" />
+  <img src="imagenes/1.png" alt="" width="209" height="310" />
   <figcaption><strong></strong></figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ Aquí tienes la sección de uso actualizada con el enlace a tu repositorio:
 ## **Estructura del Código**
 
 <figure style="text-align: center;">
-  <img src="imagenes/2.png" alt="" width="200" height="115" />
+  <img src="imagenes/2.png" alt="" width="209" height="310" />
   <figcaption><strong></strong></figcaption>
 </figure>
 
